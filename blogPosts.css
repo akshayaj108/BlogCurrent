@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: aliceblue;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    top: 0;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  }
+  .log {
+    margin: auto 25px;
+  }
+  .log {
+    font-size: 1.5rem;
+    color: #009579;
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    cursor: pointer;
+  }
+  ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    margin-right: 40px;
+  }
+  ul li {
+    margin: 15px 40px;
+  }
+  ul li a {
+    color: #005295;
+    text-decoration: none;
+    font-family: Impact, sans-serif;
+    cursor: pointer;
+  }
+  
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 70px;
+    grid-auto-rows: 350px;
+    margin: 20px;
+}
+.post{
+    margin: auto 0;
+    width: 100%;
+    height: 250px;
+    border: 1px solid wheat;
+    border-radius: 4px;
+    outline: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+   
+}
+#titlePost{
+    text-align: center;
+}
+#authorOfPost{
+    text-align: end;
+    font-style: italic;
+  margin-right: 5px;
+}
+#detailsPost{
+    text-align: center;
+    font-size: bolder;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+
+#uploadDate{
+    margin-top: 15px;
+    margin-left: 8px;
+}
+.detail{
+    font-weight: bolder;
+}
